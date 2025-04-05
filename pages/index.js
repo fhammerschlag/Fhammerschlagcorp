@@ -74,7 +74,7 @@ export default function Home() {
           <div className="bg-white shadow-lg rounded-xl overflow-hidden">
             <img src="/nft2.jpg" alt="Kode Krew" className="w-full h-56 object-cover" />
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">KODE KREW</h3>
+              <h3 className="text-xl font-bold mb-2">Argentipicos</h3>
               <p className="text-gray-700">Personajes digitales con identidad fuerte, diseñados para una comunidad que valora la libertad financiera, el arte y la tecnología.</p>
               <a href="https://opensea.io/collection/kode-krew" target="_blank" className="text-blue-500 mt-2 inline-block">Ver colección</a>
             </div>
