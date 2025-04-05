@@ -76,7 +76,7 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">Argentipicos</h3>
               <p className="text-gray-700">Personajes digitales con identidad fuerte, diseñados para una comunidad que valora la libertad financiera, el arte y la tecnología.</p>
-              <a href="https://opensea.io/collection/kode-krew" target="_blank" className="text-blue-500 mt-2 inline-block">Ver colección</a>
+              <a href="https://opensea.io/collection/agentipicos" target="_blank" className="text-blue-500 mt-2 inline-block">Ver colección</a>
             </div>
           </div>
         </div>
