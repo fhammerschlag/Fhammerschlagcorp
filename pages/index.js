@@ -33,7 +33,8 @@ export default function Home() {
           </a>
         </div>
       </section>
-            {/* SOBRE MÍ */}
+
+      {/* SOBRE MÍ */}
       <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
         <h2 className="text-3xl font-extrabold mb-6 text-gray-900">Sobre mí</h2>
         <p className="text-lg leading-relaxed text-gray-700">
@@ -42,13 +43,12 @@ export default function Home() {
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
           Vengo del mundo de la acción. Combino años de experiencia en administración, finanzas e inversiones con visión tecnológica y enfoque estratégico. Trabajo con individuos y empresas que quieren pasar al siguiente nivel.
         </p>
-<section className="py-20 px-6 md:px-16">
-  <h2 className="text-4xl font-bold text-center text-gray-900">Sobre mí</h2>
-  <p className="mt-4 text-lg leading-relaxed text-gray-700">
-    Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica.
-  </p>
-</section>
-            {/* SERVICIOS */}
+        <p className="mt-4 text-lg leading-relaxed text-gray-700">
+          Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica.
+        </p>
+      </section>
+
+      {/* SERVICIOS */}
       <section className="py-20 bg-gray-50 px-6 md:px-16">
         <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -70,7 +70,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-            {/* COLECCIONES DIGITALES */}
+
+      {/* COLECCIONES DIGITALES */}
       <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
         <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Colecciones Digitales</h2>
         <div className="grid md:grid-cols-2 gap-10">
@@ -92,7 +93,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-            {/* CONTACTO */}
+
+      {/* CONTACTO */}
       <section className="py-20 bg-gray-900 text-white text-center px-6">
         <h2 className="text-3xl font-extrabold mb-6">¿Querés mejorar tu economía, tu marca o tu visión?</h2>
         <p className="text-lg mb-6 text-gray-300">Demos el primer paso. Te leo y te respondo personalmente.</p>
@@ -101,11 +103,13 @@ export default function Home() {
         </a>
         <p className="mt-4 text-sm text-gray-400">Seguime en Twitter para más contenido: <a href="https://twitter.com/FHammer_" className="underline">@FHammer_</a></p>
       </section>
-            {/* FOOTER */}
+
+      {/* FOOTER */}
       <footer className="py-6 bg-black text-center text-gray-400 text-sm">
         © {new Date().getFullYear()} FHammerschlagCorp – Todos los derechos reservados.
       </footer>
-            {/* RECURSOS GRATUITOS */}
+
+      {/* RECURSOS GRATUITOS */}
       <section className="py-20 bg-blue-50 px-6 md:px-16 text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Recursos Gratuitos</h2>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
@@ -123,5 +127,3 @@ export default function Home() {
     </div>
   );
 }
-      
-      
