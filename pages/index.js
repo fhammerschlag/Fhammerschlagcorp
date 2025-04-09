@@ -43,8 +43,7 @@ export default function Home() {
           Vengo del mundo de la acción. Combino años de experiencia en administración, finanzas e inversiones con visión tecnológica y enfoque estratégico. Trabajo con individuos y empresas que quieren pasar al siguiente nivel.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica. Nada de humo, todo con calle, números y mentalidad de crecimiento.
-        </p>
+          Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica.
       </section>
             {/* SERVICIOS */}
       <section className="py-20 bg-gray-50 px-6 md:px-16">
