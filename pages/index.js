@@ -42,9 +42,12 @@ export default function Home() {
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
           Vengo del mundo de la acción. Combino años de experiencia en administración, finanzas e inversiones con visión tecnológica y enfoque estratégico. Trabajo con individuos y empresas que quieren pasar al siguiente nivel.
         </p>
-        <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica.
-      </section>
+<section className="py-20 px-6 md:px-16">
+  <h2 className="text-4xl font-bold text-center text-gray-900">Sobre mí</h2>
+  <p className="mt-4 text-lg leading-relaxed text-gray-700">
+    Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica.
+  </p>
+</section>
             {/* SERVICIOS */}
       <section className="py-20 bg-gray-50 px-6 md:px-16">
         <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
