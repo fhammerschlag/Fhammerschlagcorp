@@ -51,7 +51,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Consultoría Estratégica 1:1</h3>
-            <p className="text-gray-700">Te acompaño en decisiones clave: inversiones, optimización financiera, estructuras empresariales o crecimiento personal. Sin vueltas.</p>
+            <p className="text-gray-700">Te acompaño en decisiones clave: inversiones, optimización financiera, estructuras empresariales o crecimiento personal.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Diagnóstico Financiero</h3>
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Material gratuito</h3>
-            <p className="text-gray-700">Accedé a contenido exclusivo sobre estrategias reales, inversiones, mentalidad, IA y negocios. Sin humo.</p>
+            <p className="text-gray-700">Accedé a contenido exclusivo sobre estrategias reales, inversiones, mentalidad, IA y negocios.</p>
           </div>
         </div>
       </section>
