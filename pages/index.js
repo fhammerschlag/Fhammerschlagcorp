@@ -14,7 +14,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
         <h1 className="text-xl font-bold text-gray-900">FHammerschlagCorp</h1>
-        <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition">
+        <a href="mailto:fhsoluciones@outlook.com" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition">
           Contactame
         </a>
       </header>
@@ -28,7 +28,7 @@ export default function Home() {
           <p className="mt-6 text-lg text-gray-300">
             Federico Hammerschlag – CEO | Consultor Estratégico | Inversor con visión de futuro.
           </p>
-          <a href="/organizacion-total" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+          <a href="mailto:fhsoluciones@outlook.com" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
             Empezá tu transformación
           </a>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
       <section className="py-20 bg-gray-900 text-white text-center px-6">
         <h2 className="text-3xl font-extrabold mb-6">¿Querés mejorar tu economía, tu marca o tu visión?</h2>
         <p className="text-lg mb-6 text-gray-300">Demos el primer paso. Te leo y te respondo personalmente.</p>
-        <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+        <a href="mailto:fhsoluciones@outlook.com" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
           Escribime ahora
         </a>
         <p className="mt-4 text-sm text-gray-400">Seguime en Twitter para más contenido: <a href="https://twitter.com/FHammer_" className="underline">@FHammer_</a></p>
