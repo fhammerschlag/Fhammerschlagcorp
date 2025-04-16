@@ -11,13 +11,12 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
       </Head>
 
-      {/* HEADER */}
-      <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-gray-900">FH Corporate Solutions</h1>
-        <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition">
-          Contactame
-        </a>
-      </header>
+  <header className="fixed top-0 left-0 w-full z-50 bg-gray-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
+  <h1 className="text-xl font-bold text-white">FH Corporate Solutions</h1>
+  <a href="/organizacion-total" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
+    Contactame
+  </a>
+</header>
 
       {/* HERO */}
       <section className="relative h-screen bg-cover bg-center flex items-center justify-center pt-20" style={{ backgroundImage: "url('/hero.jpg')" }}>
