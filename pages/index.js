@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* HEADER */}
       <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-gray-900">FHammerschlagCorp</h1>
+        <h1 className="text-xl font-bold text-gray-900">FH Corporate Solutions</h1>
         <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition">
           Contactame
         </a>
