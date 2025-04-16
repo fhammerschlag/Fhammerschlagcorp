@@ -7,7 +7,7 @@ export default function OrganizacionTotal() {
       <Head>
         <title>Organización Total - FH Corporate Solutions</title>
       </Head>
-      <main className="min-h-screen py-20 px-6 md:px-16 bg-white text-gray-900">
+      <main className="min-h-screen py-20 px-6 md:px-16 bg-cover bg-center text-gray-900"style={{ backgroundImage: "url('/hero.jpg')" }}>
         <h1 className="text-4xl font-extrabold mb-6 text-center">Organizá tu Economía con IA + Excel</h1>
         <p className="text-lg mb-4 max-w-3xl mx-auto text-center">
           Este servicio está pensado para personas, emprendedores y pequeñas empresas que necesitan tener control total de su economía.
