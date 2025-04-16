@@ -29,7 +29,7 @@ export default function Home() {
             Federico Hammerschlag – CEO | Consultor Estratégico | Inversor con visión de futuro.
           </p>
           <a href="/organizacion-total" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-            Empezá tu transformación
+            Organiza tu economía 
           </a>
         </div>
       </section>
