@@ -11,7 +11,8 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
       </Head>
 
-  <header className="fixed top-0 left-0 w-full z-50 bg-gray-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
+{/* HEADER */}
+<header className="fixed top-0 left-0 w-full z-50 bg-gray-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
   <h1 className="text-xl font-bold text-white">FH Corporate Solutions</h1>
   <a href="/organizacion-total" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
     Contactame
