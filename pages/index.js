@@ -93,7 +93,7 @@ export default function Home() {
             {/* CONTACTO */}
       <section className="py-20 bg-gray-900 text-white text-center px-6">
         <h2 className="text-3xl font-extrabold mb-6">¿Querés mejorar tu economía, tu marca o tu visión?</h2>
-        <p className="text-lg mb-6 text-gray-300">Demos el primer paso. Te leo y te respondo personalmente.</p>
+        <p className="text-lg mb-6 text-gray-300">Demos el primer paso.</p>
         <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
           Escribime ahora
         </a>
