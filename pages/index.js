@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
 
 {/* HEADER */}
-<header className="fixed top-0 left-0 w-full z-50 bg-gray-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
+<header className="fixed top-0 left-0 w-full z-50 bg-blue-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
   <h1 className="text-xl font-bold text-white">FH Corporate Solutions</h1>
-  <a href="/organizacion-total" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
+  <a href="/organizacion-total" className="bg-white hover:bg-blue-100 text-blue-900 font-semibold py-2 px-4 rounded-lg transition">
     Contactame
   </a>
 </header>
