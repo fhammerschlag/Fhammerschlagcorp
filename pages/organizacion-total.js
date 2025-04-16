@@ -1,7 +1,10 @@
-
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 export default function OrganizacionTotal() {
+  const router = useRouter();
+  const showThanks = router.query.ok === 'true';
+
   return (
     <>
       <Head>
@@ -25,13 +28,19 @@ export default function OrganizacionTotal() {
           Si querés que lo hagamos juntos, <strong>solicitá una entrevista</strong>. Yo me encargo del resto.
         </p>
 
+        {showThanks && (
+          <div className="max-w-xl mx-auto mb-6 bg-green-100 text-green-800 border border-green-300 rounded-lg p-4 text-center">
+            ✅ ¡Gracias por tu solicitud! Te voy a contactar a la brevedad. Mientras tanto, revisá tu correo.
+          </div>
+        )}
+
         <form
           action="https://formsubmit.co/fhsoluciones@outlook.com"
           method="POST"
           className="max-w-xl mx-auto bg-gray-50 p-6 rounded-xl shadow-md mt-10"
         >
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="https://fhammerschlagcorp.vercel.app/gracias" />
+          <input type="hidden" name="_next" value="https://fhammerschlagcorp.vercel.app/organizacion-total?ok=true" />
 
           <h2 className="text-2xl font-bold mb-4 text-center">Solicitá tu entrevista personalizada</h2>
 
