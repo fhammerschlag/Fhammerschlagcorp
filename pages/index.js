@@ -51,28 +51,41 @@ export default function Home() {
     Me especializo en detectar oportunidades, automatizar estructuras financieras y ofrecer soluciones concretas que funcionan en la práctica, no solo en teoría.
   </p>
 </section>
-            {/* SERVICIOS */}
-      <section className="py-20 bg-gray-50 px-6 md:px-16">
-        <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Consultoría Estratégica 1:1</h3>
-            <p className="text-gray-700">Te acompaño en decisiones clave: inversiones, optimización financiera, estructuras empresariales o crecimiento personal.</p>
-          </div>
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Diagnóstico Financiero</h3>
-            <p className="text-gray-700">Analizo tu situación actual y te entrego un plan claro para que tu dinero fluya mejor, se multiplique y trabaje para vos.</p>
-          </div>
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Automatización & IA</h3>
-            <p className="text-gray-700">Uso herramientas tecnológicas para automatizar tareas, mejorar tus decisiones y liberar tu tiempo.</p>
-          </div>
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Material gratuito</h3>
-            <p className="text-gray-700">Accedé a contenido exclusivo sobre estrategias reales, inversiones, mentalidad, IA y negocios.</p>
-          </div>
-        </div>
-      </section>
+     {/* SERVICIOS */}
+<section className="py-20 bg-gray-50 px-6 md:px-16">
+  <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
+  <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+    <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <h3 className="text-xl font-semibold mb-2 text-gray-900">Consultoría Estratégica Personalizada</h3>
+      <p className="text-gray-700">
+        Asesoramiento individual para optimizar tus decisiones económicas, estructurar tus finanzas y mejorar tu planificación patrimonial.
+      </p>
+    </div>
+
+    <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <h3 className="text-xl font-semibold mb-2 text-gray-900">Diagnóstico Financiero Integral</h3>
+      <p className="text-gray-700">
+        Evaluación precisa de tu situación económica. Entrego un informe con propuestas claras para ordenar y mejorar tus números.
+      </p>
+    </div>
+
+    <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <h3 className="text-xl font-semibold mb-2 text-gray-900">Automatización de Procesos</h3>
+      <p className="text-gray-700">
+        Desarrollo de herramientas con Excel e inteligencia artificial para gestionar datos, generar reportes y organizar tareas administrativas.
+      </p>
+    </div>
+
+    <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <h3 className="text-xl font-semibold mb-2 text-gray-900">Material Profesional</h3>
+      <p className="text-gray-700">
+        Recursos descargables sobre administración, inversión y tecnología aplicada. Actualizado y de utilidad real para personas y empresas.
+      </p>
+    </div>
+
+  </div>
+</section>
             {/* COLECCIONES DIGITALES */}
       <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
         <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Colecciones Digitales</h2>
