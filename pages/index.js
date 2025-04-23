@@ -37,13 +37,15 @@ export default function Home() {
       <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
         <h2 className="text-3xl font-extrabold mb-6 text-gray-900">Sobre mí</h2>
         <p className="text-lg leading-relaxed text-gray-700">
-          Soy Federico Hammerschlag, CEO y fundador de FH Corporate Solutions. Mi propósito es ayudarte a pensar con claridad, invertir con inteligencia y transformar tus resultados con herramientas reales.
+          Soy Federico Hammerschlag, fundador y CEO de FH Corporate Solutions.Mi propósito es ayudarte a pensar con claridad, invertir con inteligencia y transformar tus resultados con herramientas prácticas y efectivas.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Vengo del mundo de la acción. Combino años de experiencia en administración, finanzas e inversiones con visión tecnológica y enfoque estratégico. Trabajo con individuos y empresas que quieren pasar al siguiente nivel.
+          Vengo del mundo real. Cuento con años de experiencia en administración, finanzas e inversiones, que combino con visión tecnológica y enfoque estratégico.
+        <p className="mt-4 text-lg leading-relaxed text-gray-700">
+          Trabajo con personas y empresas que quieren avanzar sin rodeos, optimizando su economía, ordenando sus procesos y tomando decisiones que marcan la diferencia. 
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Me especializo en detectar oportunidades, optimizar estructuras financieras, automatizar flujos y ofrecer soluciones que funcionen en la práctica.
+          Me especializo en detectar oportunidades, automatizar estructuras financieras y ofrecer soluciones concretas que funcionan en la práctica, no solo en teoría.
         </p>
       </section>
             {/* SERVICIOS */}
