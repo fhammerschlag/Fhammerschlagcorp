@@ -125,7 +125,7 @@ export default function Home() {
       <section className="py-20 bg-blue-50 px-6 md:px-16 text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Recursos Gratuitos</h2>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
-          Descargá gratis el eBook <strong>“De 0 a Inversor”</strong> y empezá a transformar tu economía con herramientas claras, simples y reales. Es una guía práctica con estrategias probadas sobre finanzas, inversiones, mercado de capitales, DeFi y trading.
+          Descargá gratis el eBook y empezá a transformar tu economía con herramientas claras, simples y reales. Es una guía práctica con estrategias probadas sobre finanzas, inversiones, mercado de capitales, DeFi y trading.
         </p>
         <a
           href="/Ebook-finanzas.pdf"
