@@ -42,10 +42,7 @@ export default function Home() {
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
           Vengo del mundo real. Cuento con años de experiencia en administración, finanzas e inversiones, que combino con visión tecnológica y enfoque estratégico.
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Trabajo con personas y empresas que quieren avanzar sin rodeos, optimizando su economía, ordenando sus procesos y tomando decisiones que marcan la diferencia. 
-        </p>
-        <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Me especializo en detectar oportunidades, automatizar estructuras financieras y ofrecer soluciones concretas que funcionan en la práctica, no solo en teoría.
+          Trabajo con personas y empresas que quieren avanzar, optimizando su economía, ordenando sus procesos y tomando decisiones que marcan la diferencia. Me especializo en detectar oportunidades, automatizar estructuras financieras y ofrecer soluciones concretas que funcionan en la práctica, no solo en teoría.
         </p>
       </section>
             {/* SERVICIOS */}
