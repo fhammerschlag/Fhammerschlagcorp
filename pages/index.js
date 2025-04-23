@@ -33,18 +33,24 @@ export default function Home() {
           </a>
         </div>
       </section>
-            {/* SOBRE MÍ */}
-      <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-extrabold mb-6 text-gray-900">Sobre mí</h2>
-        <p className="text-lg leading-relaxed text-gray-700">
-          Soy Federico Hammerschlag, fundador y CEO de FH Corporate Solutions.Mi propósito es ayudarte a pensar con claridad, invertir con inteligencia y transformar tus resultados con herramientas prácticas y efectivas.
-        </p>
-        <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Vengo del mundo real. Cuento con años de experiencia en administración, finanzas e inversiones, que combino con visión tecnológica y enfoque estratégico.
-        <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Trabajo con personas y empresas que quieren avanzar, optimizando su economía, ordenando sus procesos y tomando decisiones que marcan la diferencia. Me especializo en detectar oportunidades, automatizar estructuras financieras y ofrecer soluciones concretas que funcionan en la práctica, no solo en teoría.
-        </p>
-      </section>
+{/* SOBRE MÍ */}
+<section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
+  <h2 className="text-3xl font-extrabold mb-6 text-gray-900">Sobre mí</h2>
+  
+  <p className="text-lg leading-relaxed text-gray-700">
+    Soy Federico Hammerschlag, fundador y CEO de FH Corporate Solutions.  
+    Mi propósito es ayudarte a pensar con claridad, invertir con inteligencia y transformar tus resultados con herramientas prácticas y efectivas.
+  </p>
+  
+  <p className="mt-4 text-lg leading-relaxed text-gray-700">
+    Vengo del mundo real. Cuento con años de experiencia en administración, finanzas e inversiones, que combino con visión tecnológica y enfoque estratégico.
+  </p>
+  
+  <p className="mt-4 text-lg leading-relaxed text-gray-700">
+    Trabajo con personas y empresas que quieren avanzar, optimizando su economía, ordenando sus procesos y tomando decisiones que marcan la diferencia.  
+    Me especializo en detectar oportunidades, automatizar estructuras financieras y ofrecer soluciones concretas que funcionan en la práctica, no solo en teoría.
+  </p>
+</section>
             {/* SERVICIOS */}
       <section className="py-20 bg-gray-50 px-6 md:px-16">
         <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
