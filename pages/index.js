@@ -95,7 +95,7 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">Sticker Legends</h3>
               <p className="text-gray-700">NFTs de leyendas del fútbol, recreados con precisión coleccionista. Esta colección exclusiva convierte tarjetas icónicas en obras digitales únicas con valor simbólico. Donde la historia del fútbol se transforma en arte digital..</p>
-              <a href="https://opensea.io/collection/stickerlegends" target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-2 inline-block hover:underline">Ver en OpenSea</a>
+              <a href="https://opensea.io/es/collection/fh-collectibles" target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-2 inline-block hover:underline">Ver en OpenSea</a>
             </div>
           </div>
           <div className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl">
