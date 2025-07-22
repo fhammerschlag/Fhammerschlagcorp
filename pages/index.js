@@ -37,7 +37,7 @@ export default function Home() {
             <span className="text-blue-400">Lográ resultados reales.</span>
           </h2>
           <p className="mt-6 text-lg text-gray-300">
-            Mentoring en finanzas personales, inversiones y desbloqueo de patrones.<br />
+           Asesoramiento personalizado en finanzas personales, inversiones y desbloqueo de patrones.<br />
             Federico Hammerschlag – Consultor & Terapeuta Certificado.
           </p>
           <a href="/organizacion-total" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
