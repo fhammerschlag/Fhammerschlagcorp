@@ -15,16 +15,15 @@ export default function OrganizacionTotal() {
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <h1 className="text-4xl font-extrabold mb-6 text-center">
-        Ordená tu Economía. Activá tu Potencial. Saná tu historia con el dinero y aprendé a invertir con criterio y conciencia
+        Saná tu historia con el dinero y aprendé a invertir con criterio y conciencia
         </h1>
-
         <p className="text-lg mb-6 max-w-3xl mx-auto text-center bg-white bg-opacity-80 p-6 rounded-xl">
          No necesitás ser experto en finanzas. Solo necesitás dejar de sobrevivir.
           <br /><br />
           Te acompaño a ordenar tu vida financiera, identificar los bloqueos que heredaste, y crear un sistema real con herramientas simples: IA, Biodescodificación y Finanzas conscientes.
           <br /><br />
           Si venís repitiendo patrones familiares, no sabés bien qué hacer con tu plata o te sentís estancado... este proceso es para vos.
-         <strong>👉 Comenzamos con una entrevista personalizada y un test gratuito.</strong>. Yo me encargo del resto.
+         <strong>👉 Comenzamos con una entrevista personalizada y un test gratuito.</strong>
         </p>
 
         {showThanks && (
