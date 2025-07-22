@@ -75,7 +75,7 @@ export default function Home() {
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Asesoramiento Financiero Real</h3>
             <p className="text-gray-700">
-              Te ayudo a tomar decisiones de inversión, crear tu plan financiero y avanzar con seguridad. Desde lo más básico hasta inversiones avanzadas, con criterio y sin humo.
+              Te ayudo a tomar decisiones de inversión, crear tu plan financiero y avanzar con seguridad. Desde lo más básico hasta inversiones avanzadas.
             </p>
           </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Recursos Descargables</h3>
             <p className="text-gray-700">
-              Cuadernos de abundancia, planillas, guías prácticas y recursos exclusivos para transformar tu economía y mentalidad.
+              planillas, guías prácticas y recursos exclusivos para transformar tu economía y mentalidad.
             </p>
           </div>
 
