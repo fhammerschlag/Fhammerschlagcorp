@@ -53,7 +53,7 @@ export default function Home() {
           Soy Federico Hammerschlag, consultor financiero y terapeuta en biodescodificación. Ayudo a personas y empresas a salir del desorden financiero, transformar sus patrones con el dinero y empezar a invertir de forma real y consciente.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Integro herramientas de inteligencia artificial, educación financiera sin humo y desbloqueo emocional, para que logres resultados sólidos y duraderos. Nada de fórmulas mágicas: solo método probado y acompañamiento real.
+          Integro herramientas de inteligencia artificial, educación financiera y desbloqueo emocional, para que logres resultados sólidos y duraderos. Nada de fórmulas mágicas: solo método probado y acompañamiento real.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
           Si buscás orden, claridad y un cambio verdadero en tu economía, estás en el lugar correcto. Pedí tu diagnóstico gratuito y descubrí cómo podemos trabajar juntos.
