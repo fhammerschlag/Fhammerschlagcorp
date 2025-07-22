@@ -15,17 +15,16 @@ export default function OrganizacionTotal() {
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <h1 className="text-4xl font-extrabold mb-6 text-center">
-          Control Total: Ordená tu Economía y Salí del Modo Supervivencia
+        Ordená tu Economía. Activá tu Potencial. Saná tu historia con el dinero y aprendé a invertir con criterio y conciencia
         </h1>
 
         <p className="text-lg mb-6 max-w-3xl mx-auto text-center bg-white bg-opacity-80 p-6 rounded-xl">
-          No necesitás ser contador, ni inversor, ni tener todo resuelto.
-          Solo necesitás dejar de vivir apagando incendios.
+         No necesitás ser experto en finanzas. Solo necesitás dejar de sobrevivir.
           <br /><br />
-          Yo te ayudo a organizar tu economía, automatizar tus finanzas con Excel e inteligencia artificial,
-          armar tus planillas, tu presentación de la 931, y todo lo que nunca nadie te enseñó sobre cómo tener orden y control.
+          Te acompaño a ordenar tu vida financiera, identificar los bloqueos que heredaste, y crear un sistema real con herramientas simples: IA, Biodescodificación y Finanzas conscientes.
           <br /><br />
-          Si querés que lo hagamos juntos, <strong>solicitá una entrevista</strong>. Yo me encargo del resto.
+          Si venís repitiendo patrones familiares, no sabés bien qué hacer con tu plata o te sentís estancado... este proceso es para vos.
+         <strong>👉 Comenzamos con una entrevista personalizada y un test gratuito.</strong>. Yo me encargo del resto.
         </p>
 
         {showThanks && (
