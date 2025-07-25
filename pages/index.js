@@ -65,7 +65,7 @@ export default function Home() {
     Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
   </p>
   <a
-    href="/docs/BioFinanzas.pdf"
+    href="/BioFinanzas.pdf"
     download
     className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
   >
