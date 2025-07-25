@@ -23,9 +23,9 @@ export default function Home() {
       {/* HEADER */}
       <header className="fixed top-0 left-0 w-full z-50 bg-gray-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
         <h1 className="text-xl font-bold text-white">BioFinanzas Conscientes</h1>
-        <a href="https://calendly.com/fhsoluciones/30min" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
-          Hablá conmigo
-        </a>
+        <a href="/organizacion-total" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
+  Hablá conmigo
+</a>
       </header>
       {/* HERO */}
       <section className="relative h-screen bg-cover bg-center flex items-center justify-center pt-20" style={{ backgroundImage: "url('/hero.jpg')" }}>
@@ -127,9 +127,9 @@ export default function Home() {
       <section className="py-20 bg-gray-900 text-white text-center px-6">
         <h2 className="text-3xl font-extrabold mb-6">¿Listo para transformar tu economía?</h2>
         <p className="text-lg mb-6 text-gray-300">Damos el primer paso juntos. Pedí tu diagnóstico gratuito y empecemos hoy.</p>
-        <a href="https://calendly.com/fhsoluciones/30min" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-          Escribime ahora
-        </a>
+        <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+  Escribime ahora
+</a>
         <p className="mt-4 text-sm text-gray-400">
           Seguime en Twitter para tips y novedades: <a href="https://twitter.com/FHammer_" className="underline">@FHammer_</a>
         </p>
