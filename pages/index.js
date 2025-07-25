@@ -58,6 +58,21 @@ export default function Home() {
           Si buscás orden, claridad y un cambio verdadero en tu economía, estás en el lugar correcto. Pedí tu diagnóstico gratuito y descubrí cómo podemos trabajar juntos.
         </p>
       </section>
+{/* DESCARGA PRESENTACIÓN PDF */}
+<section className="py-16 px-6 md:px-16 text-center bg-blue-50">
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-4">¿Querés saber cómo funciona BioFinanzas Conscientes?</h2>
+  <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
+    Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
+  </p>
+  <a
+    href="/docs/BioFinanzas.pdf"
+    download
+    className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
+  >
+    Descargar presentación (PDF)
+  </a>
+  <p className="mt-4 text-sm text-gray-500">Archivo simple | 8 páginas | 100% práctico</p>
+</section>
 
       {/* SERVICIOS */}
       <section className="py-20 bg-gray-50 px-6 md:px-16">
