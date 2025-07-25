@@ -16,18 +16,17 @@ export default function Home() {
         <meta property="og:title" content="BioFinanzas Conscientes | Consultoría y Transformación Financiera" />
         <meta property="og:description" content="Mentoría en finanzas, desbloqueo de patrones y automatización con IA. Transformá tu relación con el dinero y empezá a invertir con criterio. Consultá a Federico Hammerschlag." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tusitio.com" />
+        <meta property="og:url" content="https://fhammerschlagcorp.vercel.app" />
         <meta property="og:image" content="/biofinanzas-og.jpg" />
       </Head>
 
       {/* HEADER */}
       <header className="fixed top-0 left-0 w-full z-50 bg-gray-900 shadow-md py-4 px-6 md:px-16 flex justify-between items-center">
         <h1 className="text-xl font-bold text-white">BioFinanzas Conscientes</h1>
-        <a href="/organizacion-total" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
+        <a href="https://calendly.com/fhsoluciones/30min" className="bg-white hover:bg-gray-100 text-gray-900 font-semibold py-2 px-4 rounded-lg transition">
           Hablá conmigo
         </a>
       </header>
-
       {/* HERO */}
       <section className="relative h-screen bg-cover bg-center flex items-center justify-center pt-20" style={{ backgroundImage: "url('/hero.jpg')" }}>
         <div className="bg-black bg-opacity-70 p-8 rounded-xl text-center max-w-3xl animate-fade-in-up">
@@ -37,11 +36,11 @@ export default function Home() {
             <span className="text-blue-400">Lográ resultados reales.</span>
           </h2>
           <p className="mt-6 text-lg text-gray-300">
-           Asesoramiento personalizado en finanzas personales, inversiones y desbloqueo de patrones.<br />
+            Asesoramiento personalizado en finanzas personales, inversiones y desbloqueo de patrones.<br />
             Federico Hammerschlag – Consultor & Terapeuta Certificado.
           </p>
-          <a href="/organizacion-total" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-            Quiero mi diagnóstico
+          <a href="https://calendly.com/fhsoluciones/30min" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+            Quiero mi diagnóstico gratuito
           </a>
         </div>
       </section>
@@ -128,7 +127,7 @@ export default function Home() {
       <section className="py-20 bg-gray-900 text-white text-center px-6">
         <h2 className="text-3xl font-extrabold mb-6">¿Listo para transformar tu economía?</h2>
         <p className="text-lg mb-6 text-gray-300">Damos el primer paso juntos. Pedí tu diagnóstico gratuito y empecemos hoy.</p>
-        <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+        <a href="https://calendly.com/fhsoluciones/30min" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
           Escribime ahora
         </a>
         <p className="mt-4 text-sm text-gray-400">
