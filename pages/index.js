@@ -217,8 +217,6 @@ export default function Home() {
               👉 Incluye diseño + desarrollo + publicación online.
             </p>
           </div>
-
-        </div>
       </section>
 
 {/* COLECCIONES DIGITALES */}
