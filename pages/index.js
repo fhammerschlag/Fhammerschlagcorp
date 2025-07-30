@@ -141,62 +141,101 @@ export default function Home() {
 </section>
 
 {/* SERVICIOS */}
-<section className="py-20 bg-white px-6 md:px-16 text-center" id="servicios">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-12">Servicios Profesionales</h2>
+<section 
+  className="py-20 bg-white px-6 md:px-16 text-center" 
+  id="servicios" 
+  role="region" 
+  aria-label="Listado de Servicios Profesionales"
+>
+  <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-12">
+    Servicios Profesionales
+  </h2>
 
   <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
 
     {/* Mentoría BioFinanzas */}
     <div className="bg-white shadow-xl rounded-xl p-6 text-left flex items-start space-x-4">
-      <svg className="h-10 w-10 text-blue-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+      <svg className="h-10 w-10 text-blue-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" role="img" aria-label="Icono mentoría">
         <path d="M9 12l2 2 4-4" />
         <path d="M21 12A9 9 0 1 1 3 12a9 9 0 0 1 18 0z" />
       </svg>
       <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">Mentoría BioFinanzas Conscientes</h3>
-        <p className="text-gray-700">
-          Acompañamiento 1:1 durante 4 semanas para ordenar tus finanzas, detectar bloqueos emocionales y crear un nuevo vínculo con el dinero. Ideal para transformar tu economía desde la raíz.
+        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+          Mentoría BioFinanzas Conscientes
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Acompañamiento 1:1 durante 4 semanas para sanar tu relación con el dinero, ordenar tu economía y diseñar un nuevo modelo financiero personal. Combinamos desbloqueo emocional + educación financiera + estrategia digital.
         </p>
+        <a 
+          href="https://calendly.com/fhsoluciones/30min" 
+          className="text-blue-500 hover:underline font-medium"
+        >
+          Reservá tu diagnóstico gratuito →
+        </a>
       </div>
     </div>
 
     {/* Asesoramiento Financiero */}
     <div className="bg-white shadow-xl rounded-xl p-6 text-left flex items-start space-x-4">
-      <svg className="h-10 w-10 text-green-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+      <svg className="h-10 w-10 text-green-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" role="img" aria-label="Icono asesoramiento financiero">
         <path d="M12 8v4l3 3" />
         <path d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0z" />
       </svg>
       <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">Asesoramiento Financiero Real</h3>
-        <p className="text-gray-700">
-          Te ayudo a crear un plan financiero personalizado, aprender a invertir, y tomar decisiones seguras. Desde nivel inicial hasta inversiones avanzadas, con foco en resultados concretos.
+        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+          Asesoramiento Financiero Real
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Diseñamos un plan financiero personalizado desde cero. Te enseño a invertir de forma estratégica, evitar errores comunes y tomar decisiones con claridad. Ideal si querés salir del caos financiero y comenzar a crecer.
         </p>
+        <a 
+          href="https://calendly.com/fhsoluciones/30min" 
+          className="text-green-600 hover:underline font-medium"
+        >
+          Pedí tu sesión inicial →
+        </a>
       </div>
     </div>
 
     {/* Creación de PDFs Profesionales */}
     <div className="bg-white shadow-xl rounded-xl p-6 text-left flex items-start space-x-4">
-      <svg className="h-10 w-10 text-purple-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+      <svg className="h-10 w-10 text-purple-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" role="img" aria-label="Icono creación de PDFs">
         <path d="M12 4v16m8-8H4" />
       </svg>
       <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">Creación de PDFs Profesionales</h3>
-        <p className="text-gray-700">
-          Diseños visuales impactantes y persuasivos para vender tus servicios, cursos o ideas. PDFs pensados para captar clientes, educar o presentar proyectos con claridad y estilo.
+        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+          Creación de PDFs Profesionales
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Diseño estratégico de PDFs para vender, presentar o educar. Desde guías digitales hasta presentaciones comerciales. Visuales impactantes y textos que convierten, pensados para tu cliente ideal.
         </p>
+        <a 
+          href="https://calendly.com/fhsoluciones/30min" 
+          className="text-purple-600 hover:underline font-medium"
+        >
+          Consultá tu idea conmigo →
+        </a>
       </div>
     </div>
 
     {/* Diseño Web Profesional */}
     <div className="bg-white shadow-xl rounded-xl p-6 text-left flex items-start space-x-4">
-      <svg className="h-10 w-10 text-red-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+      <svg className="h-10 w-10 text-red-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" role="img" aria-label="Icono diseño web">
         <path d="M3 5h18M9 3v2m6-2v2M4 8h16v11H4z" />
       </svg>
       <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">Diseño Web Profesional</h3>
-        <p className="text-gray-700">
-          Sitios web modernos, responsive y funcionales. Te diseño una página con buena experiencia de usuario, velocidad optimizada y enfoque en conversión. Ideal para potenciar tu marca online.
+        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+          Diseño Web Profesional
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Creamos tu web desde cero con enfoque estratégico: responsive, rápida, elegante y optimizada para buscadores. Ideal para transformar tu marca personal en una plataforma digital que vende.
         </p>
+        <a 
+          href="https://calendly.com/fhsoluciones/30min" 
+          className="text-red-600 hover:underline font-medium"
+        >
+          Hablemos de tu sitio →
+        </a>
       </div>
     </div>
 
