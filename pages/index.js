@@ -52,172 +52,121 @@ export default function Home() {
         </p>
       </section>
 
-      {/* QUÉ PODÉS CONTRATAR CONMIGO */}
-      <section className="py-20 px-6 md:px-16 text-center bg-gray-100">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-6">
-          ¿Qué podés contratar conmigo?
-        </h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-          Ofrezco mentorías personalizadas, desarrollo de sitios web, PDFs profesionales, clases de IA y formación en análisis técnico para ayudarte a transformar tu economía, automatizar tu vida y tomar decisiones con criterio.
-        </p>
+{/* QUÉ PODÉS CONTRATAR CONMIGO */}
+<section className="py-20 px-6 md:px-16 text-center bg-gray-100">
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-6">
+    ¿Qué podés contratar conmigo?
+  </h2>
+  <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
+    Ofrezco mentorías personalizadas, desarrollo de sitios web, PDFs profesionales, clases de IA y formación en análisis técnico para ayudarte a transformar tu economía, automatizar tu vida y tomar decisiones con criterio.
+  </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-
-          {/* Mentoría */}
-          <div className="bg-white shadow-md rounded-xl p-6 text-left">
-            <h3 className="text-xl font-bold mb-2 text-blue-600">Mentoría BioFinanzas Conscientes</h3>
-            <p className="text-sm text-gray-700 mb-4">
-              Programa intensivo 1 a 1 para ordenar tus finanzas, liberar bloqueos y diseñar un nuevo plan económico con sentido.
-            </p>
-            <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-              Reservar sesión
-            </a>
-          </div>
-
-          {/* Webs */}
-          <div className="bg-white shadow-md rounded-xl p-6 text-left">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Creación de Páginas Web</h3>
-            <p className="text-sm text-gray-700 mb-4">
-              Sitios profesionales, modernos y rápidos. Ideal para freelancers, negocios, consultores o marcas personales. Diseño + publicación incluida.
-            </p>
-            <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-              Pedir cotización
-            </a>
-          </div>
-
-          {/* PDFs */}
-          <div className="bg-white shadow-md rounded-xl p-6 text-left">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Diseño de PDFs Profesionales</h3>
-            <p className="text-sm text-gray-700 mb-4">
-              Armado completo de eBooks, guías, presentaciones o propuestas. Redacción clara + diseño visual para que vendas mejor.
-            </p>
-            <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-              Solicitar servicio
-            </a>
-          </div>
-
-          {/* Enseñanza de IA + Trading */}
-          <div className="bg-white shadow-md rounded-xl p-6 text-left">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">IA, Automatización y Trading</h3>
-            <p className="text-sm text-gray-700 mb-4">
-              Aprendé a usar IA y herramientas digitales para ordenar tu vida, automatizar tareas o analizar el mercado. También doy formación práctica en análisis técnico y estrategia real para invertir con criterio.
-            </p>
-            <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-              Agendar clase inicial
-            </a>
-          </div>
-
-        </div>
-      </section>
-
-      {/* DESCARGA DE PDFs */}
-      <section className="py-16 px-6 md:px-16 text-center bg-blue-50">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
-          ¿Querés saber cómo funciona BioFinanzas Conscientes?
-        </h2>
-        <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
-          Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
-        </p>
-
-        {/* Botón presentación */}
-        <a
-          href="/BioFinanzas.pdf"
-          download
-          className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
-        >
-          Descargar presentación (PDF)
-        </a>
-        <p className="mt-4 text-sm text-gray-500">Archivo simple | 8 páginas | 100% práctico</p>
-
-        {/* Guías extras */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-
-          {/* IA */}
-          <div className="bg-white rounded-xl shadow-md p-6 text-center">
-            <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
-            <p className="text-sm text-gray-600 mb-4">
-              Aprendé a monetizar, crear y automatizar sin ser técnico. Más de 30 páginas prácticas para aplicar ya.
-            </p>
-            <a
-              href="https://biofinanzas.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
-            >
-              Ver Guía de IA
-            </a>
-          </div>
-
-          {/* Finanzas */}
-          <div className="bg-white rounded-xl shadow-md p-6 text-center">
-            <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Finanzas Personales</h3>
-            <p className="text-sm text-gray-600 mb-4">
-              De la deuda a la libertad financiera. Guía práctica con más de 30 páginas para ordenar y transformar tu economía.
-            </p>
-            <a
-              href="https://biofinanzas.mitiendanube.com/productos/guia-completa-de-finanzas-personales-de-la-deuda-a-la-libertad-financiera-pdf/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
-            >
-              Ver Guía de Finanzas
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA FINAL */}
-      <section className="text-center py-16 px-6 md:px-16 bg-white">
-        <h2 className="text-3xl font-semibold text-gray-900 mb-4">¿Querés empezar ahora?</h2>
-        <p className="text-lg text-gray-700 mb-6">Reservá tu sesión gratuita y diseñemos juntos tu próximo paso financiero y digital.</p>
-        <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-          Reservar ahora
-        </a>
-      </section>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    {/* Mentoría */}
+    <div className="bg-white shadow-md rounded-xl p-6 text-left">
+      <h3 className="text-xl font-bold mb-2 text-blue-600">Mentoría BioFinanzas Conscientes</h3>
+      <p className="text-sm text-gray-700 mb-4">
+        Programa intensivo 1 a 1 para ordenar tus finanzas, liberar bloqueos y diseñar un nuevo plan económico con sentido.
+      </p>
+      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+        Reservar sesión
+      </a>
     </div>
-  
-      {/* SERVICIOS */}
-      <section className="py-20 bg-gray-50 px-6 md:px-16">
-        <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">🔓 Mentoría 1 a 1: Ordená tu economía y desbloqueá tu historia con el dinero</h3>
-            <p className="text-gray-700">
-              Programa intensivo de 4 semanas para ordenar tus finanzas, liberar bloqueos heredados y transformar tu relación con el dinero desde la raíz.
-              Incluye diagnóstico personalizado, herramientas digitales, guía paso a paso y acompañamiento real.
-              👉 Ideal si sentís que ganás pero no avanzás.
-            </p>
-            <a href="https://calendly.com/fhsoluciones/30min" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-            📅 Charla Gratuita
-          </a>
-          </div>
+    {/* Webs */}
+    <div className="bg-white shadow-md rounded-xl p-6 text-left">
+      <h3 className="text-xl font-bold mb-2 text-gray-900">Creación de Páginas Web</h3>
+      <p className="text-sm text-gray-700 mb-4">
+        Sitios profesionales, modernos y rápidos. Ideal para freelancers, negocios, consultores o marcas personales. Diseño + publicación incluida.
+      </p>
+      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
+        Pedir cotización
+      </a>
+    </div>
 
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">📊 Plan Financiero Personalizado para Invertir con Seguridad</h3>
-            <p className="text-gray-700">
-              Te ayudo a diseñar tu plan financiero, elegir buenas inversiones y avanzar con claridad.
-            Desde cero o con experiencia previa, trabajamos juntos para que entiendas qué hacer con tu dinero y cómo multiplicarlo sin miedo ni confusión.
-            👉 Incluye sesiones, herramientas y visión estratégica.
-            </p>
-          </div>
+    {/* PDFs */}
+    <div className="bg-white shadow-md rounded-xl p-6 text-left">
+      <h3 className="text-xl font-bold mb-2 text-gray-900">Diseño de PDFs Profesionales</h3>
+      <p className="text-sm text-gray-700 mb-4">
+        Armado completo de eBooks, guías, presentaciones o propuestas. Redacción clara + diseño visual para que vendas mejor.
+      </p>
+      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
+        Solicitar servicio
+      </a>
+    </div>
 
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">📄 PDFs que Venden: Diseño, Redacción y Formato Pro</h3>
-            <p className="text-gray-700">
-              ¿Querés vender tu idea, curso o servicio en PDF? Lo armamos por vos. Diseñamos documentos potentes, claros y visuales para que vendas más.
-              👉 Ideal para eBooks, guías prácticas, presentaciones, manuales o propuestas.
-            </p>
-          </div>
+    {/* Enseñanza de IA + Trading */}
+    <div className="bg-white shadow-md rounded-xl p-6 text-left">
+      <h3 className="text-xl font-bold mb-2 text-gray-900">IA, Automatización y Trading</h3>
+      <p className="text-sm text-gray-700 mb-4">
+        Aprendé a usar IA y herramientas digitales para ordenar tu vida, automatizar tareas o analizar el mercado. También doy formación práctica en análisis técnico y estrategia real para invertir con criterio.
+      </p>
+      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
+        Agendar clase inicial
+      </a>
+    </div>
+  </div>
+</section>
 
-          <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">🖥️ Creación de Páginas Web Profesionales</h3>
-            <p className="text-gray-700">
-              Desarrollamos tu sitio web personalizado en pocos días. Ideal para freelancers, negocios, marcas personales y proyectos que quieren tener presencia online real. Sitios rápidos, modernos, adaptados al celular y con diseño profesional.
-              👉 Incluye diseño + desarrollo + publicación online.
-            </p>
-          </div>
-      </section>
+{/* DESCARGA DE PDFs */}
+<section className="py-16 px-6 md:px-16 text-center bg-blue-50">
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
+    ¿Querés saber cómo funciona BioFinanzas Conscientes?
+  </h2>
+  <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
+    Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
+  </p>
+  <a
+    href="/BioFinanzas.pdf"
+    download
+    className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
+  >
+    Descargar presentación (PDF)
+  </a>
+  <p className="mt-4 text-sm text-gray-500">Archivo simple | 8 páginas | 100% práctico</p>
+
+  {/* Guías extras */}
+  <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+    <div className="bg-white rounded-xl shadow-md p-6 text-center">
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
+      <p className="text-sm text-gray-600 mb-4">
+        Aprendé a monetizar, crear y automatizar sin ser técnico. Más de 30 páginas prácticas para aplicar ya.
+      </p>
+      <a
+        href="https://biofinanzas.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
+      >
+        Ver Guía de IA
+      </a>
+    </div>
+
+    <div className="bg-white rounded-xl shadow-md p-6 text-center">
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Finanzas Personales</h3>
+      <p className="text-sm text-gray-600 mb-4">
+        De la deuda a la libertad financiera. Guía práctica con más de 30 páginas para ordenar y transformar tu economía.
+      </p>
+      <a
+        href="https://biofinanzas.mitiendanube.com/productos/guia-completa-de-finanzas-personales-de-la-deuda-a-la-libertad-financiera-pdf/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
+      >
+        Ver Guía de Finanzas
+      </a>
+    </div>
+  </div>
+</section>
+
+{/* CTA FINAL */}
+<section className="text-center py-16 px-6 md:px-16 bg-white">
+  <h2 className="text-3xl font-semibold text-gray-900 mb-4">¿Querés empezar ahora?</h2>
+  <p className="text-lg text-gray-700 mb-6">Reservá tu sesión gratuita y diseñemos juntos tu próximo paso financiero y digital.</p>
+  <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+    Reservar ahora
+  </a>
+</section>
 
 {/* COLECCIONES DIGITALES */}
 <section className="py-20 px-6 md:px-16 max-w-3xl mx-auto">
@@ -255,25 +204,24 @@ export default function Home() {
   </p>
 </section>
 
+{/* RECURSOS GRATUITOS */}
+<section className="py-20 bg-blue-50 px-6 md:px-16 text-center">
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Recursos Gratuitos</h2>
+  <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+    Descargá gratis mi eBook práctico y empezá a ordenar tus finanzas hoy mismo. Técnicas reales, ejemplos y estrategias para avanzar desde cero o potenciar tus inversiones.
+  </p>
+  <a
+    href="/Ebook-finanzas.pdf"
+    download
+    className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
+  >
+    Descargar eBook gratuito
+  </a>
+  <p className="mt-4 text-sm text-gray-500">PDF simple | 100% práctico | Accesible para todos los niveles</p>
+</section>
+
 {/* FOOTER */}
 <footer className="py-6 bg-black text-center text-gray-400 text-sm">
   © {new Date().getFullYear()} BioFinanzas Conscientes – Todos los derechos reservados.
 </footer>
-      {/* RECURSOS GRATUITOS */}
-      <section className="py-20 bg-blue-50 px-6 md:px-16 text-center">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Recursos Gratuitos</h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
-          Descargá gratis mi eBook práctico y empezá a ordenar tus finanzas hoy mismo. Técnicas reales, ejemplos y estrategias para avanzar desde cero o potenciar tus inversiones.
-        </p>
-        <a
-          href="/Ebook-finanzas.pdf"
-          download
-          className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
-        >
-          Descargar eBook gratuito
-        </a>
-        <p className="mt-4 text-sm text-gray-500">PDF simple | 100% práctico | Accesible para todos los niveles</p>
-      </section>
-    </div>
-  );
-}
+
