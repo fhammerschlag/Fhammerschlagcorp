@@ -1,4 +1,5 @@
-import Head from 'next/head';
+
+      import Head from 'next/head';
 import Image from 'next/image';
 
 export default function Home() {
@@ -8,29 +9,30 @@ export default function Home() {
         <title>BioFinanzas Conscientes | Consultoría en Finanzas Personales y Transformación</title>
         <meta
           name="description"
-          content="Mentoría en finanzas personales, automatización con IA, inversiones y desbloqueo de patrones emocionales. Lográ orden y resultados reales con Federico Hammerschlag."
+          content="Consultoría en finanzas personales, inversiones, inteligencia artificial y biodescodificación. Ordená tu economía, desbloqueá patrones y lográ claridad con mentoring profesional y recursos gratuitos. Federico Hammerschlag – Experto en desbloqueo financiero y productividad."
         />
-        <meta name="keywords" content="finanzas personales, consultoría financiera, inversiones, biodescodificación, inteligencia artificial, mentoría, automatización, análisis técnico, trading, orden económico, desbloqueo financiero" />
+        <meta name="keywords" content="finanzas personales, consultoría financiera, inversiones, biodescodificación, automatización financiera, inteligencia artificial, mentoring financiero, diagnóstico financiero, orden económico, desbloqueo financiero" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="BioFinanzas Conscientes | Consultoría y Transformación Financiera" />
-        <meta property="og:description" content="Mentoría en finanzas, automatización y desbloqueo emocional. Aprendé a invertir con análisis técnico e inteligencia artificial aplicada. Consultá a Federico Hammerschlag." />
+        <meta property="og:description" content="Mentoría en finanzas, desbloqueo de patrones y automatización con IA. Transformá tu relación con el dinero y empezá a invertir con criterio. Consultá a Federico Hammerschlag." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://fhammerschlagcorp.vercel.app" />
         <meta property="og:image" content="/biofinanzas-og.jpg" />
       </Head>
+
 
       {/* HERO */}
       <section className="relative h-screen bg-cover bg-center flex items-center justify-center pt-20" style={{ backgroundImage: "url('/hero.jpg')" }}>
         <div className="bg-black bg-opacity-70 p-8 rounded-xl text-center max-w-3xl animate-fade-in-up">
           <h2 className="text-5xl font-bold text-white leading-snug">
             Ordená tu economía.<br />
-            Automatizá tu vida.<br />
-            <span className="text-blue-400">Invertí con estrategia real.</span>
+            Transformá tu relación con el dinero.<br />
+            <span className="text-blue-400">Lográ resultados reales.</span>
           </h2>
           <p className="mt-6 text-lg text-gray-300">
-            Mentoría y servicios digitales en finanzas personales, análisis técnico, IA aplicada y desbloqueo emocional. <br />
-            Federico Hammerschlag – Consultor & Estratega Digital.
+            Asesoramiento personalizado en finanzas personales, inversiones y desbloqueo de patrones.<br />
+            Federico Hammerschlag – Consultor & Terapeuta Certificado.
           </p>
           <a href="https://calendly.com/fhsoluciones/30min" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
             Quiero mi diagnóstico gratuito
@@ -42,73 +44,16 @@ export default function Home() {
       <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
         <h2 className="text-3xl font-extrabold mb-6 text-gray-900">Sobre mí</h2>
         <p className="text-lg leading-relaxed text-gray-700">
-          Soy Federico Hammerschlag, consultor financiero, estratega en inteligencia artificial aplicada y terapeuta en biodescodificación. Ayudo a personas y emprendedores a salir del caos financiero, desbloquear patrones heredados y activar sistemas que funcionen para su vida real.
+          Soy Federico Hammerschlag, consultor financiero y terapeuta en biodescodificación. Ayudo a personas y empresas a salir del desorden financiero, transformar sus patrones con el dinero y empezar a invertir de forma real y consciente.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Combino educación financiera, automatización con IA, análisis técnico y trabajo emocional profundo. No vendo fórmulas mágicas, sino un sistema probado para ordenar, invertir y crecer con foco y propósito.
+          Integro herramientas de inteligencia artificial, educación financiera y desbloqueo emocional, para que logres resultados sólidos y duraderos. Nada de fórmulas mágicas: solo método probado y acompañamiento real.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Si querés salir del desorden y construir una nueva economía con claridad, podés agendar una llamada gratuita y empezar hoy.
+          Si buscás orden, claridad y un cambio verdadero en tu economía, estás en el lugar correcto. Pedí tu diagnóstico gratuito y descubrí cómo podemos trabajar juntos.
         </p>
       </section>
-
-{/* QUÉ PODÉS CONTRATAR CONMIGO */}
-<section className="py-20 px-6 md:px-16 text-center bg-gray-100">
-  <h2 className="text-3xl font-extrabold text-gray-900 mb-6">
-    ¿Qué podés contratar conmigo?
-  </h2>
-  <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-    Ofrezco mentorías personalizadas, desarrollo de sitios web, PDFs profesionales, clases de IA y formación en análisis técnico para ayudarte a transformar tu economía, automatizar tu vida y tomar decisiones con criterio.
-  </p>
-
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-    {/* Mentoría */}
-    <div className="bg-white shadow-md rounded-xl p-6 text-left">
-      <h3 className="text-xl font-bold mb-2 text-blue-600">Mentoría BioFinanzas Conscientes</h3>
-      <p className="text-sm text-gray-700 mb-4">
-        Programa intensivo 1 a 1 para ordenar tus finanzas, liberar bloqueos y diseñar un nuevo plan económico con sentido.
-      </p>
-      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-        Reservar sesión
-      </a>
-    </div>
-
-    {/* Webs */}
-    <div className="bg-white shadow-md rounded-xl p-6 text-left">
-      <h3 className="text-xl font-bold mb-2 text-gray-900">Creación de Páginas Web</h3>
-      <p className="text-sm text-gray-700 mb-4">
-        Sitios profesionales, modernos y rápidos. Ideal para freelancers, negocios, consultores o marcas personales. Diseño + publicación incluida.
-      </p>
-      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-        Pedir cotización
-      </a>
-    </div>
-
-    {/* PDFs */}
-    <div className="bg-white shadow-md rounded-xl p-6 text-left">
-      <h3 className="text-xl font-bold mb-2 text-gray-900">Diseño de PDFs Profesionales</h3>
-      <p className="text-sm text-gray-700 mb-4">
-        Armado completo de eBooks, guías, presentaciones o propuestas. Redacción clara + diseño visual para que vendas mejor.
-      </p>
-      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-        Solicitar servicio
-      </a>
-    </div>
-
-    {/* Enseñanza de IA + Trading */}
-    <div className="bg-white shadow-md rounded-xl p-6 text-left">
-      <h3 className="text-xl font-bold mb-2 text-gray-900">IA, Automatización y Trading</h3>
-      <p className="text-sm text-gray-700 mb-4">
-        Aprendé a usar IA y herramientas digitales para ordenar tu vida, automatizar tareas o analizar el mercado. También doy formación práctica en análisis técnico y estrategia real para invertir con criterio.
-      </p>
-      <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-        Agendar clase inicial
-      </a>
-    </div>
-  </div>
-</section>
-
-{/* DESCARGA DE PDFs */}
+{/* DESCARGA PRESENTACIÓN Y GUÍAS */}
 <section className="py-16 px-6 md:px-16 text-center bg-blue-50">
   <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
     ¿Querés saber cómo funciona BioFinanzas Conscientes?
@@ -116,6 +61,8 @@ export default function Home() {
   <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
     Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
   </p>
+
+  {/* Botón principal presentación */}
   <a
     href="/BioFinanzas.pdf"
     download
@@ -123,10 +70,14 @@ export default function Home() {
   >
     Descargar presentación (PDF)
   </a>
-  <p className="mt-4 text-sm text-gray-500">Archivo simple | 8 páginas | 100% práctico</p>
+  <p className="mt-4 text-sm text-gray-500">
+    Archivo simple | 8 páginas | 100% práctico
+  </p>
 
-  {/* Guías extras */}
+  {/* NUEVA SECCIÓN CON LOS DOS PDFs EXTRAS */}
   <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+    
+    {/* Guía de Inteligencia Artificial */}
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
       <p className="text-sm text-gray-600 mb-4">
@@ -142,6 +93,7 @@ export default function Home() {
       </a>
     </div>
 
+    {/* Guía de Finanzas Personales */}
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Finanzas Personales</h3>
       <p className="text-sm text-gray-600 mb-4">
@@ -156,6 +108,7 @@ export default function Home() {
         Ver Guía de Finanzas
       </a>
     </div>
+
   </div>
 </section>
 
