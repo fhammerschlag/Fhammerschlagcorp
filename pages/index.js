@@ -83,34 +83,34 @@ export default function Home() {
 </section>
       
 {/* DESCARGA PRESENTACIÓN Y GUÍAS */}
-<section className="py-16 px-6 md:px-16 text-center bg-blue-50">
+<section className="py-16 px-6 md:px-16 text-center bg-blue-50" aria-label="Descargas de presentación y guías">
   <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
     ¿Querés saber cómo funciona BioFinanzas Conscientes?
   </h2>
   <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
-    Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
+    Accedé a la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
   </p>
 
-  {/* Botón principal presentación */}
+  {/* Botón presentación */}
   <a
     href="/BioFinanzas.pdf"
-    download
+    target="_blank"
+    rel="noopener noreferrer"
     className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
   >
-    Descargar presentación (PDF)
+    Ver presentación (PDF)
   </a>
   <p className="mt-4 text-sm text-gray-500">
-    Archivo simple | 8 páginas | 100% práctico
+    Archivo online | 8 páginas | 100% práctico
   </p>
 
-  {/* NUEVA SECCIÓN CON LOS DOS PDFs EXTRAS */}
+  {/* Guías */}
   <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-    
-    {/* Guía de Inteligencia Artificial */}
+    {/* Guía IA */}
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
       <p className="text-sm text-gray-600 mb-4">
-        Aprendé a monetizar, crear y automatizar sin ser técnico. Más de 30 páginas prácticas para aplicar ya.
+        Monetizá, creá y automatizá sin ser técnico. Más de 30 páginas prácticas con herramientas reales.
       </p>
       <a
         href="https://biofinanzas.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
@@ -122,7 +122,7 @@ export default function Home() {
       </a>
     </div>
 
-    {/* Guía de Finanzas Personales */}
+    {/* Guía Finanzas */}
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Finanzas Personales</h3>
       <p className="text-sm text-gray-600 mb-4">
@@ -137,7 +137,6 @@ export default function Home() {
         Ver Guía de Finanzas
       </a>
     </div>
-
   </div>
 </section>
 
