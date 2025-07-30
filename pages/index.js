@@ -137,16 +137,18 @@ export default function Home() {
           </div>
 
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Automatización Inteligente</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">📄 PDFs que Venden: Diseño, Redacción y Formato Pro</h3>
             <p className="text-gray-700">
-              Herramientas de IA y Excel para automatizar tareas, organizar tu economía y liberar tiempo. Ganá orden y foco en tus procesos.
+              ¿Querés vender tu idea, curso o servicio en PDF? Lo armamos por vos. Diseñamos documentos potentes, claros y visuales para que vendas más.
+              👉 Ideal para eBooks, guías prácticas, presentaciones, manuales o propuestas.
             </p>
           </div>
 
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Recursos Descargables</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">🖥️ Creación de Páginas Web Profesionales</h3>
             <p className="text-gray-700">
-              planillas, guías prácticas y recursos exclusivos para transformar tu economía y mentalidad.
+              Desarrollamos tu sitio web personalizado en pocos días. Ideal para freelancers, negocios, marcas personales y proyectos que quieren tener presencia online real. Sitios rápidos, modernos, adaptados al celular y con diseño profesional.
+              👉 Incluye diseño + desarrollo + publicación online.
             </p>
           </div>
 
