@@ -58,12 +58,16 @@ export default function Home() {
           Si buscás orden, claridad y un cambio verdadero en tu economía, estás en el lugar correcto. Pedí tu diagnóstico gratuito y descubrí cómo podemos trabajar juntos.
         </p>
       </section>
-{/* DESCARGA PRESENTACIÓN PDF */}
+{/* DESCARGA PRESENTACIÓN Y GUÍAS */}
 <section className="py-16 px-6 md:px-16 text-center bg-blue-50">
-  <h2 className="text-3xl font-extrabold text-gray-900 mb-4">¿Querés saber cómo funciona BioFinanzas Conscientes?</h2>
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
+    ¿Querés saber cómo funciona BioFinanzas Conscientes?
+  </h2>
   <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
     Descargá la presentación completa en PDF y descubrí cómo transformar tu economía desde la raíz, con un sistema claro, humano y real.
   </p>
+
+  {/* Botón principal presentación */}
   <a
     href="/BioFinanzas.pdf"
     download
@@ -71,7 +75,46 @@ export default function Home() {
   >
     Descargar presentación (PDF)
   </a>
-  <p className="mt-4 text-sm text-gray-500">Archivo simple | 8 páginas | 100% práctico</p>
+  <p className="mt-4 text-sm text-gray-500">
+    Archivo simple | 8 páginas | 100% práctico
+  </p>
+
+  {/* NUEVA SECCIÓN CON LOS DOS PDFs EXTRAS */}
+  <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+    
+    {/* Guía de Inteligencia Artificial */}
+    <div className="bg-white rounded-xl shadow-md p-6 text-center">
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
+      <p className="text-sm text-gray-600 mb-4">
+        Aprendé a monetizar, crear y automatizar sin ser técnico. Más de 50 páginas prácticas para aplicar ya.
+      </p>
+      <a
+        href="https://biofinanzas.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
+      >
+        Ver Guía de IA
+      </a>
+    </div>
+
+    {/* Guía de Finanzas Personales */}
+    <div className="bg-white rounded-xl shadow-md p-6 text-center">
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Finanzas Personales</h3>
+      <p className="text-sm text-gray-600 mb-4">
+        De la deuda a la libertad financiera. Guía práctica con más de 50 páginas para ordenar y transformar tu economía.
+      </p>
+      <a
+        href="https://biofinanzas.mitiendanube.com/productos/guia-completa-de-finanzas-personales-de-la-deuda-a-la-libertad-financiera-pdf/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
+      >
+        Ver Guía de Finanzas
+      </a>
+    </div>
+
+  </div>
 </section>
 
       {/* SERVICIOS */}
