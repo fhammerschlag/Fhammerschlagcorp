@@ -119,7 +119,7 @@ export default function Home() {
 
   <div className="grid md:grid-cols-1 gap-10 justify-items-center">
     <div className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl w-full">
-      <img src="/nftt1.jpg" alt="Mirrors of the World" className="w-full h-56 object-cover" />
+      <img src="/nftt1" alt="Mirrors of the World" className="w-full h-56 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2 text-gray-900">Mirrors of the World</h3>
         <p className="text-gray-700">
