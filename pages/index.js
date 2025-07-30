@@ -86,7 +86,7 @@ export default function Home() {
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
       <p className="text-sm text-gray-600 mb-4">
-        Aprendé a monetizar, crear y automatizar sin ser técnico. Más de 50 páginas prácticas para aplicar ya.
+        Aprendé a monetizar, crear y automatizar sin ser técnico. Más de 30 páginas prácticas para aplicar ya.
       </p>
       <a
         href="https://biofinanzas.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
@@ -102,7 +102,7 @@ export default function Home() {
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Finanzas Personales</h3>
       <p className="text-sm text-gray-600 mb-4">
-        De la deuda a la libertad financiera. Guía práctica con más de 50 páginas para ordenar y transformar tu economía.
+        De la deuda a la libertad financiera. Guía práctica con más de 30 páginas para ordenar y transformar tu economía.
       </p>
       <a
         href="https://biofinanzas.mitiendanube.com/productos/guia-completa-de-finanzas-personales-de-la-deuda-a-la-libertad-financiera-pdf/"
