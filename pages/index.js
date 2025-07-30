@@ -110,33 +110,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* COLECCIONES DIGITALES */}
-      <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Colecciones Digitales</h2>
-        <p className="text-lg text-gray-700 text-center mb-8">
-          NFTs y arte digital como activos de valor, historia y comunidad. Descubrí mis colecciones exclusivas en OpenSea.
+{/* COLECCIONES DIGITALES */}
+<section className="py-20 px-6 md:px-16 max-w-3xl mx-auto">
+  <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Colecciones Digitales</h2>
+  <p className="text-lg text-gray-700 text-center mb-8">
+    NFTs y arte digital como activos de valor, historia y contemplación. Descubrí mis colecciones exclusivas en OpenSea.
+  </p>
+
+  <div className="grid md:grid-cols-1 gap-10 justify-items-center">
+    <div className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl w-full">
+      <img src="/nftt1.jpg" alt="Mirrors of the World" className="w-full h-56 object-cover" />
+      <div className="p-6">
+        <h3 className="text-xl font-bold mb-2 text-gray-900">Mirrors of the World</h3>
+        <p className="text-gray-700">
+          Obra digital 1/1. Una colección que explora los paisajes emocionales, filosóficos y simbólicos del alma humana.
+          Cada pieza es un espejo visual que invita a la contemplación interior y la conexión con lo invisible.
         </p>
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl">
-            <img src="/nft1.jpg" alt="Sticker Legends" className="w-full h-56 object-cover" />
-            <div className="p-6">
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Sticker Legends</h3>
-              <p className="text-gray-700">
-                NFTs de leyendas del fútbol, recreados con precisión coleccionista. Esta colección exclusiva convierte tarjetas icónicas en obras digitales únicas con valor simbólico. Donde la historia del fútbol se transforma en arte digital.
-              </p>
-              <a href="https://opensea.io/es/collection/fh-collectibles" target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-2 inline-block hover:underline">Ver en OpenSea</a>
-            </div>
-          </div>
-          <div className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl">
-            <img src="/nft2.jpg" alt="Argentipicos" className="w-full h-56 object-cover" />
-            <div className="p-6">
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Argentipicos</h3>
-              <p className="text-gray-700">Personajes digitales con identidad fuerte.</p>
-              <a href="https://opensea.io/collection/agentipicos" target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-2 inline-block hover:underline">Ver en OpenSea</a>
-            </div>
-          </div>
-        </div>
-      </section>
+        <a href="https://opensea.io/es/collection/mirrors-of-the-world" target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-2 inline-block hover:underline">
+          Ver en OpenSea
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* CONTACTO */}
       <section className="py-20 bg-gray-900 text-white text-center px-6">
