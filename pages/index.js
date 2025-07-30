@@ -175,8 +175,7 @@ export default function Home() {
         </a>
       </section>
     </div>
-  );
-}
+  
       {/* SERVICIOS */}
       <section className="py-20 bg-gray-50 px-6 md:px-16">
         <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Servicios</h2>
