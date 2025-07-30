@@ -245,23 +245,22 @@ export default function Home() {
   </div>
 </section>
 
-      {/* CONTACTO */}
-      <section className="py-20 bg-gray-900 text-white text-center px-6">
-        <h2 className="text-3xl font-extrabold mb-6">¿Listo para transformar tu economía?</h2>
-        <p className="text-lg mb-6 text-gray-300">Damos el primer paso juntos. Pedí tu diagnóstico gratuito y empecemos hoy.</p>
-        <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-  Escribime ahora
-</a>
-        <p className="mt-4 text-sm text-gray-400">
-          Seguime en Twitter para tips y novedades: <a href="https://twitter.com/FHammer_" className="underline">@FHammer_</a>
-        </p>
-      </section>
+{/* CONTACTO */}
+<section className="py-20 bg-gray-900 text-white text-center px-6">
+  <h2 className="text-3xl font-extrabold mb-6">¿Listo para transformar tu economía?</h2>
+  <p className="text-lg mb-6 text-gray-300">Damos el primer paso juntos. Pedí tu diagnóstico gratuito y empecemos hoy.</p>
+  <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+    Escribime ahora
+  </a>
+  <p className="mt-4 text-sm text-gray-400">
+    Seguime en Twitter para tips y novedades: <a href="https://twitter.com/FHammer_" className="underline">@FHammer_</a>
+  </p>
+</section>
 
-      {/* FOOTER */}
-      <footer className="py-6 bg-black text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} BioFinanzas Conscientes – Todos los derechos reservados.
-      </footer>
-
+{/* FOOTER */}
+<footer className="py-6 bg-black text-center text-gray-400 text-sm">
+  © {new Date().getFullYear()} BioFinanzas Conscientes – Todos los derechos reservados.
+</footer>
       {/* RECURSOS GRATUITOS */}
       <section className="py-20 bg-blue-50 px-6 md:px-16 text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Recursos Gratuitos</h2>
