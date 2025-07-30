@@ -243,53 +243,138 @@ export default function Home() {
 </section>
 
 {/* COLECCIONES DIGITALES */}
-<section className="py-20 px-6 md:px-16 max-w-3xl mx-auto">
-  <h2 className="text-3xl font-extrabold mb-10 text-center text-gray-900">Colecciones Digitales</h2>
-  <p className="text-lg text-gray-700 text-center mb-8">
-    NFTs y arte digital como activos de valor, historia y contemplación. Descubrí mis colecciones exclusivas en OpenSea.
+<section 
+  className="py-20 px-6 md:px-16 max-w-3xl mx-auto" 
+  id="colecciones" 
+  role="region" 
+  aria-label="Galería de colecciones NFT y arte digital"
+>
+  <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-center text-gray-900">
+    Colecciones Digitales
+  </h2>
+
+  <p className="text-lg md:text-xl text-gray-700 text-center mb-12">
+    Arte NFT como activo simbólico, contemplativo y coleccionable. Explorá piezas únicas creadas con estética curada y profundidad emocional.
   </p>
 
   <div className="grid md:grid-cols-1 gap-10 justify-items-center">
-    <div className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl w-full">
-      <img src="/nftt1.jpg" alt="Mirrors of the World" className="w-full h-56 object-cover" />
-      <div className="p-6">
+
+    {/* Colección: Mirrors of the World */}
+    <article 
+      className="bg-white shadow-xl rounded-xl overflow-hidden transition hover:shadow-2xl w-full" 
+      aria-label="Obra digital Mirrors of the World"
+    >
+      <img 
+        src="/nftt1.jpg" 
+        alt="Imagen de la colección NFT Mirrors of the World" 
+        className="w-full h-56 object-cover" 
+        loading="lazy" 
+      />
+      <div className="p-6 text-left">
         <h3 className="text-xl font-bold mb-2 text-gray-900">Mirrors of the World</h3>
-        <p className="text-gray-700">
-          Obra digital 1/1. Una colección que explora los paisajes emocionales, filosóficos y simbólicos del alma humana.
-          Cada pieza es un espejo visual que invita a la contemplación interior y la conexión con lo invisible.
+        <p className="text-gray-700 mb-3">
+          Colección NFT 1/1 que explora los paisajes emocionales, filosóficos y simbólicos del alma humana.
+          Cada obra es un espejo visual creado con inteligencia artificial y visión curatorial, para conectar con lo invisible y lo esencial.
         </p>
-        <a href="https://opensea.io/es/collection/mirrors-of-the-world" target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-2 inline-block hover:underline">
-          Ver en OpenSea
+        <a 
+          href="https://opensea.io/collection/mirrors-of-the-world" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-500 mt-2 inline-block hover:underline font-medium"
+        >
+          Ver colección en OpenSea →
         </a>
       </div>
-    </div>
+    </article>
+
   </div>
 </section>
 
 {/* CTA FINAL */}
-<section className="text-center py-16 px-6 md:px-16 bg-white">
-  <h2 className="text-3xl font-semibold text-gray-900 mb-4">¿Querés empezar ahora?</h2>
-  <p className="text-lg text-gray-700 mb-6">Reservá tu sesión gratuita y diseñemos juntos tu próximo paso financiero y digital.</p>
-  <a href="https://calendly.com/fhsoluciones/30min" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-    Reservar ahora
+<section 
+  className="text-center py-16 px-6 md:px-16 bg-white" 
+  role="region" 
+  aria-label="Llamado a la acción final"
+>
+  <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+    ¿Querés empezar ahora?
+  </h2>
+  <p className="text-lg text-gray-700 mb-6">
+    Reservá tu sesión gratuita y diseñemos juntos tu próximo paso financiero, emocional y digital.
+  </p>
+  <a 
+    href="https://calendly.com/fhsoluciones/30min" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold"
+    aria-label="Reservar sesión gratuita con Federico"
+  >
+    Reservar ahora →
   </a>
 </section>
 
+{/* TESTIMONIOS */}
+<section 
+  className="py-20 px-6 md:px-16 bg-gray-50 text-center" 
+  role="region" 
+  aria-label="Testimonios de clientes reales"
+>
+  <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-10">
+    Lo que dicen quienes ya transformaron su economía
+  </h2>
+  <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
+
+    {/* Testimonio 1 */}
+    <blockquote className="bg-white p-6 rounded-xl shadow-md">
+      <p className="text-gray-800 italic">“En solo 4 semanas logré organizar mis finanzas, entender en qué gastaba y comencé a ahorrar. Lo que más me ayudó fue el enfoque humano y el desbloqueo emocional.”</p>
+      <footer className="mt-4 text-sm font-medium text-gray-600">– Luciana F., Emprendedora</footer>
+    </blockquote>
+
+    {/* Testimonio 2 */}
+    <blockquote className="bg-white p-6 rounded-xl shadow-md">
+      <p className="text-gray-800 italic">“Nunca pensé que iba a entender sobre inversiones. Federico lo hace claro, práctico y sin humo. Hoy tengo un plan, invierto y siento seguridad por primera vez.”</p>
+      <footer className="mt-4 text-sm font-medium text-gray-600">– Marcos A., Diseñador UX</footer>
+    </blockquote>
+
+    {/* Testimonio 3 */}
+    <blockquote className="bg-white p-6 rounded-xl shadow-md">
+      <p className="text-gray-800 italic">“La mentoría me ayudó a desbloquear patrones familiares de carencia. No es solo plata, es un proceso profundo que te cambia la cabeza y la vida.”</p>
+      <footer className="mt-4 text-sm font-medium text-gray-600">– Florencia T., Psicóloga</footer>
+    </blockquote>
+
+  </div>
+</section>
+
 {/* CONTACTO */}
-<section className="py-20 bg-gray-900 text-white text-center px-6">
-  <h2 className="text-3xl font-extrabold mb-6">¿Listo para transformar tu economía?</h2>
-  <p className="text-lg mb-6 text-gray-300">Damos el primer paso juntos. Pedí tu diagnóstico gratuito y empecemos hoy.</p>
-  <a href="/organizacion-total" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
+<section 
+  className="py-20 bg-gray-900 text-white text-center px-6" 
+  role="region" 
+  aria-label="Sección de contacto final"
+>
+  <h2 className="text-3xl md:text-4xl font-extrabold mb-6">
+    ¿Listo para transformar tu economía?
+  </h2>
+  <p className="text-lg mb-6 text-gray-300">
+    Damos el primer paso juntos. Pedí tu diagnóstico gratuito o escribime directamente.
+  </p>
+  <a 
+    href="/organizacion-total" 
+    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
+  >
     Escribime ahora
   </a>
-  <p className="mt-4 text-sm text-gray-400">
-    Seguime en Twitter para tips y novedades: <a href="https://twitter.com/FHammer_" className="underline">@FHammer_</a>
+  <p className="mt-6 text-sm text-gray-400">
+    También podés seguirme en <a href="https://twitter.com/FHammer_" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">@FHammer_</a> para más contenido.
   </p>
 </section>
 
 {/* FOOTER */}
-<footer className="py-6 bg-black text-center text-gray-400 text-sm">
-  © {new Date().getFullYear()} BioFinanzas Conscientes – Todos los derechos reservados.
+<footer 
+  className="py-6 bg-black text-center text-gray-400 text-sm" 
+  role="contentinfo" 
+  aria-label="Pie de página"
+>
+  © {new Date().getFullYear()} BioFinanzas Conscientes® – Todos los derechos reservados.
 </footer>
 
 </div>
