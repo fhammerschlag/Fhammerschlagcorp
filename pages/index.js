@@ -22,23 +22,39 @@ export default function Home() {
       </Head>
 
 
-      {/* HERO */}
-      <section className="relative h-screen bg-cover bg-center flex items-center justify-center pt-20" style={{ backgroundImage: "url('/hero.jpg')" }}>
-        <div className="bg-black bg-opacity-70 p-8 rounded-xl text-center max-w-3xl animate-fade-in-up">
-          <h2 className="text-5xl font-bold text-white leading-snug">
-            Ordená tu economía.<br />
-            Transformá tu relación con el dinero.<br />
-            <span className="text-blue-400">Lográ resultados reales.</span>
-          </h2>
-          <p className="mt-6 text-lg text-gray-300">
-            Asesoramiento personalizado en finanzas personales, inversiones y desbloqueo de patrones.<br />
-            Federico Hammerschlag – Consultor & Terapeuta Certificado.
-          </p>
-          <a href="https://calendly.com/fhsoluciones/30min" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-            Quiero mi diagnóstico gratuito
-          </a>
-        </div>
-      </section>
+{/* HERO */}
+<section 
+  className="relative h-screen bg-cover bg-center flex items-center justify-center pt-20" 
+  style={{ backgroundImage: "url('/hero.jpg')" }}
+  role="banner"
+  aria-label="Sección principal: BioFinanzas Conscientes"
+>
+  <div className="bg-black bg-opacity-60 p-8 rounded-xl text-center max-w-3xl animate-fade-in-up shadow-xl">
+    
+    <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-snug">
+      BioFinanzas Conscientes®<br />
+      <span className="text-blue-400">Ordená tu dinero.<br /> Saná tu historia.</span>
+    </h1>
+    
+    <p className="mt-6 text-lg md:text-xl text-gray-200 font-medium">
+      Mentoría personalizada para transformar tus finanzas desde la raíz.<br />
+      Combinamos inteligencia financiera, desbloqueo emocional y herramientas con IA.
+    </p>
+    
+    <p className="mt-3 text-sm text-gray-400 italic">
+      Federico Hammerschlag – Consultor en Finanzas & Terapeuta Certificado
+    </p>
+    
+    <a 
+      href="https://calendly.com/fhsoluciones/30min" 
+      className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300"
+      aria-label="Agendá tu diagnóstico gratuito con Federico"
+    >
+      Quiero mi diagnóstico gratuito
+    </a>
+    
+  </div>
+</section>
 
       {/* SOBRE MÍ */}
       <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
