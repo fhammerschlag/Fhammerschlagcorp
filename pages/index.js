@@ -123,16 +123,20 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Mentoría BioFinanzas Conscientes</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">🔓 Mentoría 1 a 1: Ordená tu economía y desbloqueá tu historia con el dinero</h3>
             <p className="text-gray-700">
-              Proceso personalizado de 4 semanas para ordenar tus finanzas, detectar bloqueos y transformar tu historia con el dinero. Incluye diagnóstico, plan a medida, herramientas digitales y acompañamiento real.
+              Programa intensivo de 4 semanas para ordenar tus finanzas, liberar bloqueos heredados y transformar tu relación con el dinero desde la raíz.
+              Incluye diagnóstico personalizado, herramientas digitales, guía paso a paso y acompañamiento real.
+              👉 Ideal si sentís que ganás pero no avanzás.
             </p>
           </div>
 
           <div className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Asesoramiento Financiero Real</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">📊 Plan Financiero Personalizado para Invertir con Seguridad</h3>
             <p className="text-gray-700">
-              Te ayudo a tomar decisiones de inversión, crear tu plan financiero y avanzar con seguridad. Desde lo más básico hasta inversiones avanzadas.
+              Te ayudo a diseñar tu plan financiero, elegir buenas inversiones y avanzar con claridad.
+            Desde cero o con experiencia previa, trabajamos juntos para que entiendas qué hacer con tu dinero y cómo multiplicarlo sin miedo ni confusión.
+            👉 Incluye sesiones, herramientas y visión estratégica.
             </p>
           </div>
 
