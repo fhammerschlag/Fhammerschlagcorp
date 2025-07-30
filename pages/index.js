@@ -124,7 +124,7 @@ export default function Home() {
               👉 Ideal si sentís que ganás pero no avanzás.
             </p>
             <a href="https://calendly.com/fhsoluciones/30min" className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300">
-            Charla Gratuita
+            📅 Charla Gratuita
           </a>
           </div>
 
