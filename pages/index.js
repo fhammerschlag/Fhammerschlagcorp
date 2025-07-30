@@ -56,19 +56,32 @@ export default function Home() {
   </div>
 </section>
 
-      {/* SOBRE MÍ */}
-      <section className="py-20 px-6 md:px-16 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-extrabold mb-6 text-gray-900">Sobre mí</h2>
-        <p className="text-lg leading-relaxed text-gray-700">
-          Soy Federico Hammerschlag, consultor financiero y terapeuta en biodescodificación. Ayudo a personas y empresas a salir del desorden financiero, transformar sus patrones con el dinero y empezar a invertir de forma real y consciente.
-        </p>
-        <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Integro herramientas de inteligencia artificial, educación financiera y desbloqueo emocional, para que logres resultados sólidos y duraderos. Nada de fórmulas mágicas: solo método probado y acompañamiento real.
-        </p>
-        <p className="mt-4 text-lg leading-relaxed text-gray-700">
-          Si buscás orden, claridad y un cambio verdadero en tu economía, estás en el lugar correcto. Pedí tu diagnóstico gratuito y descubrí cómo podemos trabajar juntos.
-        </p>
-      </section>
+{/* SOBRE MÍ */}
+<section 
+  className="py-20 px-6 md:px-16 max-w-5xl mx-auto" 
+  role="region" 
+  aria-label="Información sobre Federico Hammerschlag"
+>
+  <h2 className="text-4xl font-extrabold mb-8 text-gray-900 text-center">
+    Sobre mí
+  </h2>
+
+  <p className="text-lg md:text-xl leading-relaxed text-gray-700 mb-6">
+    Soy <strong>Federico Hammerschlag</strong>, mentor en finanzas personales y terapeuta en biodescodificación. 
+    Acompaño a personas y emprendedores a salir del caos financiero, sanar su relación con el dinero y crear un plan real para vivir con más orden, libertad y propósito.
+  </p>
+
+  <p className="text-lg md:text-xl leading-relaxed text-gray-700 mb-6">
+    Mi enfoque combina <strong>educación financiera consciente</strong>, desbloqueo emocional profundo y herramientas prácticas de <strong>inteligencia artificial aplicada</strong>. 
+    No vendo fórmulas mágicas: diseño estrategias reales, personalizadas y sostenibles para que logres resultados concretos y duraderos.
+  </p>
+
+  <p className="text-lg md:text-xl leading-relaxed text-gray-700">
+    Si buscás claridad, transformación y acompañamiento profesional en tu camino hacia la abundancia, 
+    estás en el lugar correcto. <a href="https://calendly.com/fhsoluciones/30min" className="text-blue-500 underline hover:text-blue-700 font-semibold">Reservá tu diagnóstico gratuito</a> y empecemos a trabajar en tu nueva economía personal.
+  </p>
+</section>
+      
 {/* DESCARGA PRESENTACIÓN Y GUÍAS */}
 <section className="py-16 px-6 md:px-16 text-center bg-blue-50">
   <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
