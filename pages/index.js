@@ -204,24 +204,11 @@ export default function Home() {
   </p>
 </section>
 
-{/* RECURSOS GRATUITOS */}
-<section className="py-20 bg-blue-50 px-6 md:px-16 text-center">
-  <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Recursos Gratuitos</h2>
-  <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
-    Descargá gratis mi eBook práctico y empezá a ordenar tus finanzas hoy mismo. Técnicas reales, ejemplos y estrategias para avanzar desde cero o potenciar tus inversiones.
-  </p>
-  <a
-    href="/Ebook-finanzas.pdf"
-    download
-    className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
-  >
-    Descargar eBook gratuito
-  </a>
-  <p className="mt-4 text-sm text-gray-500">PDF simple | 100% práctico | Accesible para todos los niveles</p>
-</section>
-
 {/* FOOTER */}
 <footer className="py-6 bg-black text-center text-gray-400 text-sm">
   © {new Date().getFullYear()} BioFinanzas Conscientes – Todos los derechos reservados.
 </footer>
 
+</div>
+  );
+}
