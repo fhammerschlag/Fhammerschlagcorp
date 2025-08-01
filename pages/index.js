@@ -156,6 +156,46 @@ export default function Home() {
   </div>
 </section>
 
+<section className="py-16 px-6 md:px-16 text-center bg-white" aria-label="Comunidad FH Corporate Solutions">
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
+    Unite a nuestra Comunidad Privada
+  </h2>
+  <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
+    Accedé al grupo exclusivo de Telegram y rodeate de personas que buscan lo mismo que vos: evolución personal, libertad financiera y conciencia estratégica.
+  </p>
+  <a
+    href="https://t.me/comunidadbfc"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
+  >
+    Entrar a la Comunidad
+  </a>
+  <p className="mt-4 text-sm text-gray-500">
+    Grupo privado | Acceso gratuito | Contenido exclusivo
+  </p>
+</section>
+
+<section className="py-16 px-6 md:px-16 text-center bg-gray-100" aria-label="Serie de Genios en YouTube">
+  <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
+    🎥 Serie: Piensa como un Genio
+  </h2>
+  <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
+    Inspirate con videos breves y poderosos basados en las mentes más brillantes de la historia: Maquiavelo, Sun Tzu, Nietzsche, Buda y más.
+  </p>
+  <a
+    href="https://www.youtube.com/@fedehammer"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl transition duration-300"
+  >
+    Ver en YouTube
+  </a>
+  <p className="mt-4 text-sm text-gray-500">
+    Nuevos episodios cada semana | Contenido transformador
+  </p>
+</section>
+
 {/* SERVICIOS */}
 <section 
   className="py-20 bg-white px-6 md:px-16 text-center" 
