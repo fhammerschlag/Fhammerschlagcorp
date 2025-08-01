@@ -105,7 +105,7 @@ export default function Home() {
   </p>
 
   {/* Guías */}
-  <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+  <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
     {/* Guía IA */}
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
       <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Inteligencia Artificial</h3>
@@ -137,23 +137,20 @@ export default function Home() {
         Ver Guía de Finanzas
       </a>
     </div>
-  </div>
-</section>
 
-    {/* Guía Biodescodificacion*/}
+    {/* Guía Biodescodificación */}
     <div className="bg-white rounded-xl shadow-md p-6 text-center">
-      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Biodescodificacion</h3>
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Biodescodificación</h3>
       <p className="text-sm text-gray-600 mb-4">
-        Saná tu relación con el dinero desde la raíz.
-Guía práctica con más de 30 páginas para liberar bloqueos, transformar tu economía emocional y crear abundancia real.
+        Saná tu relación con el dinero desde la raíz. Guía práctica con más de 30 páginas para liberar bloqueos, transformar tu economía emocional y crear abundancia real.
       </p>
       <a
         href="https://fhcorpsolutions.mitiendanube.com/productos/la-guia-definitiva-de-biodescodificacion-sana-tu-historia-libera-tu-futuro/"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
+        className="inline-block bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
       >
-        Ver Guía de Biodescodificacion
+        Ver Guía de Biodescodificación
       </a>
     </div>
   </div>
