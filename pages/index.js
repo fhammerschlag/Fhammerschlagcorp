@@ -113,7 +113,7 @@ export default function Home() {
         Monetizá, creá y automatizá sin ser técnico. Más de 30 páginas prácticas con herramientas reales.
       </p>
       <a
-        href="https://biofinanzas.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
+        href="https://fhcorpsolutions.mitiendanube.com/productos/transforma-tu-vida-con-inteligencia-artificial-guia-practica-para-monetizar-crear-y-automatizar-sin-ser-tecnico/"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
@@ -129,12 +129,31 @@ export default function Home() {
         De la deuda a la libertad financiera. Guía práctica con más de 30 páginas para ordenar y transformar tu economía.
       </p>
       <a
-        href="https://biofinanzas.mitiendanube.com/productos/guia-completa-de-finanzas-personales-de-la-deuda-a-la-libertad-financiera-pdf/"
+        href="https://fhcorpsolutions.mitiendanube.com/productos/guia-completa-de-finanzas-personales-de-la-deuda-a-la-libertad-financiera-pdf/"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
       >
         Ver Guía de Finanzas
+      </a>
+    </div>
+  </div>
+</section>
+
+    {/* Guía Biodescodificacion*/}
+    <div className="bg-white rounded-xl shadow-md p-6 text-center">
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Guía de Biodescodificacion</h3>
+      <p className="text-sm text-gray-600 mb-4">
+        Saná tu relación con el dinero desde la raíz.
+Guía práctica con más de 30 páginas para liberar bloqueos, transformar tu economía emocional y crear abundancia real.
+      </p>
+      <a
+        href="https://fhcorpsolutions.mitiendanube.com/productos/la-guia-definitiva-de-biodescodificacion-sana-tu-historia-libera-tu-futuro/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300"
+      >
+        Ver Guía de Biodescodificacion
       </a>
     </div>
   </div>
